@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;      
+}
+.body{
+    margin: 0 ;
+    background: #e5e5e5;
+    font-family: Helvetica, sans-serif;
+}
+.container{
+    margin: auto;
+    width: 960px;
+}
+.header-top{
+    background-color: #333;
+    padding: 25px 20px;
+}
+.menu-search{
+    background-color: #666;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    list-style: none;
+    width: 100%;
+}
+.menu li{
+    float: left;
+    padding: 10px 11px;
+    list-style: none;
+    margin-top: 4px;
+}
+.menu li:hover{
+    background: #dddddd;
+}
+.menu li a{
+    color: white;
+    text-decoration-line: none;
+}
+.content{
+    width: 660px;
+    padding: 20px;
+    background: #ffffff;
+    float: left;
+}
+.news-img{
+    width: 200px;
+    float: left;
+}
+.news-item{
+    overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+.news-content{
+    float: left;
+    width: 350px;
+    margin-left: 20px;
+
+}
+.aside-item li{
+    list-style: none;
+    padding: 10px;
+}
+aside{
+    width: 270px;
+    float: right;
+    padding: 20px;
+    background: #e5e5e5;
+}
+main{
+    background: #e5e5e5;
+}
+footer{
+    width: 960px;
+    text-align: center;
+    clear: both;
+    background: #333;
+    height: 40px;
+}
+footer p{
+    color: #fff;
+    padding: 10px;
+}
+footer span{
+    color: #f58220;
+}
+table{
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+table td{
+    border: 1px solid black;
+}
+form label{
+    display: block;
+}
+.searchbar{
+    width: 400px;
+    float: right;
+    display: inline;
+    margin-top: -5px;
+}
+form input{
+    display: block;
+}
+.search-button{
+    float: right;
+    margin-top: -5px;
+
+}

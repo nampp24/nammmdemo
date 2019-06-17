@@ -1,0 +1,69 @@
+
+.header-top{
+    background-color: #272f54;
+    height: 150px;
+    text-align: center;
+    width: 1170px;
+}
+.header-top img{
+    height: 100px;
+    text-align: center;
+    margin-top: 25px;
+}
+.container{
+    margin: auto;
+    width: 1170px;
+}
+.navbar{
+    width: 1170px;
+    background-color: #a03f00;
+}
+.banner img{
+    max-width: 100%;
+    width: 1170px;
+}
+.header-top a{
+    text-align: center;
+}
+.banner{
+    width: 1170px;
+}
+.row{
+    width: 1170px;
+}
+.col-4{
+    padding: 5px;
+}
+h2{
+    font-size: 20px;
+    color: #272f54;
+}
+.new{
+    margin-left: 10px;
+}
+footer{
+    background: #272f54;
+    height: 50px;
+    text-align: center;
+    clear: both;
+    width: 1170px;
+}
+footer p{
+    color: #ccc;
+    padding: 13px;
+}
+.copyright{
+}
+.card-title{
+    font-size: 16px;
+    color: #a03f00;
+}
+.card-text{
+    font-size: 13px;
+    color: #000000;
+}
+.card{
+    border: 1px solid #ccc;
+    margin-right: -7px;
+    
+}

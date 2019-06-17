@@ -1,0 +1,58 @@
+.container{
+    width: 1170px;
+}
+.header-top{
+    height: 100px;
+    background-color: #272f54;
+    width: 1170px;
+    text-align: center;
+
+}
+.header-top img{
+    margin-top: 12px;
+}
+.banner{
+    height: 260px;
+}
+.navbar{
+    width: 1170px;
+    background-color: #272f54;
+    border: 1px solid #ccc;
+}
+.nav-item a{
+    color : #fff;
+}
+footer{
+    background: #272f54;
+    height: 50px;
+    text-align: center;
+    clear: both;
+    width: 1170px;
+}
+footer p{
+    color: #ccc;
+    padding: 13px;
+}
+h3{
+    font-size: 20px;
+    color: #810303;
+}
+.card-title{
+    font-size: 20px;
+    color: #810303;
+}
+.card{
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-right: -59px;
+}
+.news-content{
+    float: left;
+    border: 1px solid #ccc;
+
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
